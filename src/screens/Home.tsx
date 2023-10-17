@@ -79,12 +79,6 @@ export const HomeScreen = ({ navigation }: { navigation: any }) => {
     })
 
 
-/*
-
-
-
-*/
-
     return (
 
         <View style={styles.container}>
@@ -98,11 +92,11 @@ export const HomeScreen = ({ navigation }: { navigation: any }) => {
 
 <Button onPress={async () => {
                 showFirstLayer(customizationExampleOne);
-            }} title="Customization Example 1" />
+            }} title="With showCloseButton" />
 
             <Button onPress={async () => {
                 showFirstLayer(customizationExampleTwo);
-            }} title="Customization Example 2" />
+            }} title="Without showCloseButton" />
         </View>
     );
 };

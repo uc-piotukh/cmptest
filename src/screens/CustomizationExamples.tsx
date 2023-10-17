@@ -11,7 +11,7 @@ import {
 } from '@usercentrics/react-native-sdk';
   
 
-//testing stuff
+//first example: with showCloseButton
     export const customizationExampleOne: BannerSettings = {
         firstLayerStyleSettings: {
             layout: UsercentricsLayout.popupCenter,
@@ -25,7 +25,7 @@ import {
         }
     }
     
-    //second layer example: no showCloseButton
+    //second example: no showCloseButton
     export const customizationExampleTwo: BannerSettings = {
         firstLayerStyleSettings: {
             layout: UsercentricsLayout.full,
